@@ -5,10 +5,10 @@
 * E-mail: quick.wayans@gmail.com
 * Tel: +375292255044
 ## About myself:
-*I want to learn Front-End Development in RSSchool!*
+#### *I want to learn Front-End Development in RSSchool!*
 ## Work experience:
-*Nothing yet.*
+#### *Nothing yet.*
 ## Education and courses:
-*1 course of study of bsuir*
+#### *1 course of study of bsuir*
 ## Language:
-*English level - A2*
+#### *English level - A2*
