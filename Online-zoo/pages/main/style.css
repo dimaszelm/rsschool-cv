@@ -86,6 +86,7 @@
   }
   .selection1_ft {
 position: absolute;
+width: 1600px;
 height: 780px;
 left: 0px;
 right: 0px;
@@ -834,3 +835,20 @@ color: #4B9200;
 .butn6:hover, .butn6:active {
   opacity: 0.75;
 }
+ @media  screen and(max-width:1000px) {
+.selection1_ft{
+  position: absolute;
+height: 584px;
+width: 1000px;
+}
+.header{
+  position: absolute;
+  height: 80px;
+  width: 1000px;
+}
+.logo_footer{
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 14px;
+}
+ }
