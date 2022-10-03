@@ -90,9 +90,7 @@ width: 1600px;
 height: 780px;
 left: 0px;
 right: 0px;
-top: 0px;
-
-  }
+top: 0px; }
 .header {
     position: absolute;
 width: 1600px;
@@ -134,6 +132,30 @@ margin-left: 220px;
 }
 .header_link:hover,.header_link:focus, .header_link:active {
   opacity: .75;
+}
+.header_burger{
+  width: 18px;
+  height: 10px;
+  position: relative;
+  margin-top:40px;
+  display: none;
+}
+.burger_line
+{
+  display: block;
+  width:100%;
+  height: 2px;
+  background-color: #F5F7F6;
+  position: absolute;
+  left: 0;
+}
+.burger_line_firts {
+}
+.burger_line_third   {
+  bottom: 0;
+}.burger_line_second {
+  top: 50%;
+  transform: translateY(-50%);
 }
 .selection1_ft {
   position: absolute;
@@ -835,20 +857,433 @@ color: #4B9200;
 .butn6:hover, .butn6:active {
   opacity: 0.75;
 }
- @media  screen and(max-width:1000px) {
+ @media  screen and (max-width:1000px) {
 .selection1_ft{
   position: absolute;
-height: 584px;
-width: 1000px;
+  width: 1000px;
+  height: 584px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(images/GiantPanda.png) no-repeat ;
 }
 .header{
   position: absolute;
   height: 80px;
   width: 1000px;
+  z-index: 2;
 }
 .logo_footer{
+  display: block;
   position: absolute;
   margin-left: 30px;
   margin-top: 14px;
 }
+.header_list {
+  position: absolute;
+  padding-left: 110px;
+}
+
+.header_item:last-child {
+  margin-left: 210px;
+}
+.ellipse{
+  left: 456px;
+  top: 69px;
+  width: 367px;
+  height: 367px;
+  z-index: 1;
+}
+.wrapper{
+  position: absolute;
+  width: 400.25px;
+  height: 320px;
+  left: calc(50% - 400.25px/2 + 214.12px);
+  top: 122.8px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 75%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  z-index:3;
+}
+.btn{
+  position: absolute;
+width: 298px;
+height: 54px;
+left: calc(50% - 298px/2 + 214px);
+top: 483px;
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+}
+.sel2{
+  position: absolute;
+height: 427px;
+left: 30px;
+right: 30px;
+top: 684px;
+
+}
+.bamboo{
+position: absolute;
+width: 455px;
+height: 408px;
+left: 0px;
+top: 9px;
+backdrop-filter: blur(2px);
+}
+.txt1{
+  position: absolute;
+  left:516px;
+}
+.txt4{
+  position: absolute;
+  left:516px;
+}
+.flower{
+ display: none;
+}
+.selection3card{
+  position: absolute;
+  width: 940px;
+height: 801px;
+left: 30px;
+right: -295px;
+top: 1254px;
+}
+.pic{
+  width: 292px;
+height: 294px;
+}
+.foto_card{
+  width: 294px;
+  height: 354px;
+} 
+.scroll_animals{
+  width: 950px;
+height: 801px;
+  grid-column-gap: 29px;
+grid-row-gap: 20px;
+}
+.elps1{
+  display: none;
+}
+.elps2{
+  display: none;
+}
+.btn2{
+  position: absolute;
+width: 298px;
+height: 54px;
+left: calc(50% - 298px/2);
+top: 2134px;
+}
+.strel{
+  position: absolute;
+width: 241px;
+height: 180px;
+left: 759px;
+top: 2148px;
+}
+.palm{
+  position: absolute;
+width: 160px;
+height: 202px;
+left: 0px;
+top: 2126px;
+}
+.sel1{
+  position: absolute;
+  height: 876px;
+  width:1000px;
+  left: 0px;
+  right: 0px;
+  top: 2328px;
+}
+.bg{
+  position: absolute;
+  width: 940px;
+height: 796px;
+left: 30px;
+right: 30px;
+top: 30px;
+}
+.pick{
+  position: absolute;
+  width: 463px;
+  height: 58px;
+  margin-top: 30px;
+  margin-left: 239px;
+}
+.animal {
+  position: absolute;
+  margin-left: 49px;
+  margin-top: 108px;
+  }
+  .cov {
+    position: absolute;
+    width: 813px;
+    height: 42px;
+    margin-top: 157px;
+    margin-left: 49px;
+    }
+    .sup {
+      position: absolute;
+    width: 823px;
+    height: 42px;
+    margin-top: 209px;
+    margin-left: 49px;
+    }
+    .how {
+      position: absolute;
+      margin-top: 291px;
+      margin-left: 366px;
+    }
+    .widj1 {
+      position: absolute;
+      margin-top: 378px;
+      margin-left: 88px;
+      border-radius: 5px;
+    }
+    .widj2 {
+      position: absolute;
+      margin-top: 378px;
+      margin-left: 386px;
+      border-radius: 5px;
+    }
+    .widj3 {
+      position: absolute;
+      margin-top: 378px;
+      margin-left: 648px;
+      border-radius: 5px;
+    }
+    .vect {
+      position: absolute;
+    width: 69px;
+    height: 35.08px;
+    margin-top: 439.52px;
+    margin-left: 287px;
+    border-radius: 20px;
+    }
+    .vect2 {
+      position: absolute;
+    width: 67px;
+    height: 34.06px;
+    margin-top: 436.53px;
+    margin-left: 585px;
+    border-radius: 20px;
+    }
+    .btn3 {
+      position: absolute;
+      width: 298px;
+      height: 54px;
+     margin-top: 692px;
+     margin-left: 321px;
+      border: 0px;
+      background: #FE9013;
+      border-radius: 25px;
+      }
+      .sel3{
+        position: absolute;
+        width: 1000px;
+        height: 842px;
+        top:3304px;
+        left:30px;
+      }
+      .test3{
+        display: none;
+      }
+      .test0{
+        position: absolute;
+        margin-left:397px;
+      }
+      .test{
+        width: 293px;
+        height: 391px;
+      }
+      .test1{
+        position: absolute;
+        margin-left: 353px;
+        width: 293px;
+        height: 391px;
+      }
+      .test2{
+        position: absolute;
+        margin-left: 676px;
+        width: 293px;
+        height: 391px;
+      }
+      .tes{
+        width: 293px;
+        height: 391px;
+      }
+      .tes1 {
+        width: 293px;
+        height: 391px;
+      }.tes2{
+        width: 293px;
+        height: 391px;
+      }
+      .prog {
+        border: 0;
+        height: 8px;
+        width: 390px;
+        margin-top: 506px;
+        margin-left: 299px;
+      }
+      .list {
+        position: absolute;
+        width: 250px;
+        height: 350px;
+        left: 750px;
+        top: 3807.76px;
+        }
+        .logo{
+          position: absolute;
+          width: 82px;
+          height: 52px;
+          margin-left: 44px;
+          margin-top:41px;
+        }
+        .logoimg{
+          position: absolute;
+          margin-top: 0px;
+          margin-left: 0px;
+        }
+        .butn5{
+          position: absolute;
+          margin-top: 161px;
+          margin-left:44px;
+        }
+        .soc-list{
+          position: absolute;
+          margin-left: 44px;
+        }
+        .sub{
+          position: absolute;
+          margin-left:584px;
+        }
+        .form{
+          position: absolute;
+          margin-left:584px;
+        }
+        .footer_item {
+          margin-top: 371px;
+          margin-left: 48px;
+        }
+        .footer{
+          position: absolute;
+  top: 4046px;
+  width: 1000px;
+  height: 443px;}
+  .footer_list{
+    position:absolute;
+    margin-left: -270px;
+  }
+        }
+
+ @media screen and (max-width:320px) {
+  .header_burger{
+    display:block;
+    left:292px;
+    margin-top:12px;
+  }
+  .selection1_ft{
+    position: absolute;
+    width: 320px;
+    height: 186px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(images/GiantPandamobile.png) no-repeat ;
+  }
+  .header_list{
+    display: none;
+  }
+  .header_item {
+    display: none;
+  }
+  .header {
+    position: absolute;
+height: 34px;
+width: 320px;
+left: 0px;
+right: 0px;
+top: 0px;
+  }
+  .logo_footer{
+    position: absolute;
+width: 46.86px;
+height: 29.03px;
+margin-top: 2px;
+margin-left: 10px;
+  }
+  .logoimg{
+    position: absolute;
+width: 46.86px;
+height: 29.03px;
+  }
+  .logo_footer-pic{
+    position: absolute;
+width: 46.86px;
+height: 29.03px;
+  }
+  .ellipse{
+    left: 194px;
+    top: 57px;
+    width: 119px;
+    height: 119px;
+    z-index: 1;
+  }
+  .wrapper{
+    position: absolute;
+    width: 128.13px;
+    height: 102.44px;
+    left: calc(50% - 128.13px/2 + 85.67px);
+    top: 75.12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index:3;
+  }
+  .btn{
+    position: absolute;
+  width: 298px;
+  height: 54px;
+  left: calc(50% - 298px/2);
+  top: 207px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 25px;
+  }
+  .sel2{
+    position: absolute;
+  height: 427px;
+  left: 30px;
+  right: 30px;
+  top: 684px;
+  }
+  .bamboo{
+  position: absolute;
+  width: 455px;
+  height: 408px;
+  left: 0px;
+  top: 9px;
+  backdrop-filter: blur(2px);
+  }
+  .txt1{
+    position: absolute;
+    left:516px;
+  }
+  .txt4{
+    position: absolute;
+    left:516px;
+  }
  }

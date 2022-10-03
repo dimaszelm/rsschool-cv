@@ -132,6 +132,8 @@ height: 390px;
 left: 0px;
 right: 0px;
 top: 76px;
+background: url(images/GiantPanda.png) no-repeat center center;
+width:1600px;
 }
 .bg {
     position: absolute;
@@ -523,4 +525,204 @@ font-weight: 400;
 font-size: 16px;
 line-height: 140%;
 color: #333B41;
+}
+@media  screen and (max-width:1000px) {
+  .selection1_ft{
+    position: absolute;
+    width: 1000px;
+    height: 390px;
+  }
+  .header{
+    position: absolute;
+    height: 80px;
+    width: 1000px;
+  }
+  .logo_footer{
+    display: block;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 14px;
+  }
+  .header_list {
+    position: absolute;
+    padding-left: 110px;
+  }
+  .header_item {
+    margin-top: 29px;
+    margin-left: 49px
+  }
+  .header_donate{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+  }
+  .header_item:last-child {
+    margin-left: 259px;
+  }
+  .pnd{
+    position: absolute;
+    width:1000px;
+    height: 390px;
+top: 80px;
+background: url(images/Giant\ Pandasmall.png) no-repeat center center;
+width:1000px;
+  }
+ .bg{
+  position: absolute;
+  width: 1000px;
+  height: 1333px;
+ }
+ .txt{
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 30px;
+  max-width: 778px;
+ }
+ .txt1 {
+  position: absolute;
+  margin-top: 164px;
+  margin-left: 30px;
+  max-width: 939px;
+ }
+ .txt2{
+  position: absolute;
+  margin-top: 298px;
+  margin-left: 30px;
+ }
+ .bgr{
+  position: absolute;
+  width: 940px;
+  height: 918px;
+  margin-top: 385px;
+  margin-left: 30px;
+ }
+ .txt3{
+  position: absolute;
+  margin-top: 20px;
+  margin-left:231px;
+ }
+ .txt4{
+  position: absolute;
+  margin-top: 88px;
+  margin-left: 47px;
+ }
+ .txt5{
+  position: absolute;
+  margin-top: 282px;
+  margin-left: 255px;
+ }
+ .txt6{
+  position: absolute;
+  margin-top: 351x;
+  margin-left: 196px;
+ }
+ .xicon{
+  position: absolute;
+  margin-top: 307px;
+  margin-left: 366px;
+ }
+ .pandawidj {
+  position: absolute;
+  margin-left: 444px;
+  margin-top: 177px;
+ }
+ .txt7 {
+  position: absolute;
+  margin-top: 471px;
+  margin-left: 65px;
+ }
+ .rect {
+  position: absolute;
+  width: 810px;
+height: 27px;
+margin-left: 65px;
+margin-top: 500px;
+ }
+ .amount{
+  display: inline-block;
+text-align: center;
+  margin-top: 8px;
+  position: relative;
+  margin-left: 120px;
+  width: 10px;
+  height: 10px  ;
+}
+.amount:first-child{
+  display: none;
+}
+.amount_2{
+  position: absolute;
+  margin-left: 13px;
+}
+.label_1{
+  display: none;
+}
+.label_2{
+position: relative;
+margin-left: 0px;
+}
+.another {
+  position: absolute;
+  margin-left: 336px;
+  margin-top: 635px;
+}
+.rect2 {position: absolute;
+margin-left: 300px;
+margin-top: 717px;
+}
+.btn9{
+  position: absolute;
+  margin-left: 323px;
+  margin-top: 766px;
+}
+.txt9 {
+  position: absolute;
+  margin-top: 850.02px;
+  margin-left: 321px;
+}
+.logo{
+  position: absolute;
+  width: 82px;
+  height: 52px;
+  margin-left: 44px;
+  margin-top:41px;
+}
+.logoimg{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.butn5{
+  position: absolute;
+  margin-top: 161px;
+  margin-left:44px;
+}
+.soc-list{
+  position: absolute;
+  margin-left: 44px;
+}
+.sub{
+  position: absolute;
+  margin-left:584px;
+}
+.form{
+  position: absolute;
+  margin-left:584px;
+}
+.footer_item {
+  margin-top: 371px;
+  margin-left: 48px;
+}
+.footer{
+  position: absolute;
+top: 1332px;
+width: 1000px;
+height: 443px;}
+.footer_list{
+position:absolute;
+margin-left: -270px;
+}
+
+
 }
