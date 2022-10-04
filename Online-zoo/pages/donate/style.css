@@ -723,6 +723,6 @@ height: 443px;}
 position:absolute;
 margin-left: -270px;
 }
-
-
+}
+@media screen and (max-width:640px) {
 }

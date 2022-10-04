@@ -961,7 +961,7 @@ height: 294px;
 .foto_card{
   width: 294px;
   height: 354px;
-} 
+}
 .scroll_animals{
   width: 950px;
 height: 801px;
@@ -1185,20 +1185,17 @@ top: 30px;
   }
         }
 
- @media screen and (max-width:320px) {
+ @media screen and (max-width:640px) {
   .header_burger{
     display:block;
-    left:292px;
-    margin-top:12px;
+    left:602px;
+    margin-top:11px;
   }
   .selection1_ft{
     position: absolute;
-    width: 320px;
-    height: 186px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    background: url(images/GiantPandamobile.png) no-repeat ;
+  width: 640px;
+  height: 373px;
+    background: url(images/GiantPanda1.png) no-repeat ;
   }
   .header_list{
     display: none;
@@ -1209,7 +1206,7 @@ top: 30px;
   .header {
     position: absolute;
 height: 34px;
-width: 320px;
+width: 640px;
 left: 0px;
 right: 0px;
 top: 0px;
@@ -1232,58 +1229,335 @@ width: 46.86px;
 height: 29.03px;
   }
   .ellipse{
-    left: 194px;
-    top: 57px;
-    width: 119px;
-    height: 119px;
+    left: 330.79px;
+    top: 44.23px;
+    width: 237.6px;
+    height: 237.6px;
     z-index: 1;
   }
   .wrapper{
     position: absolute;
-    width: 128.13px;
-    height: 102.44px;
-    left: calc(50% - 128.13px/2 + 85.67px);
-    top: 75.12px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 75%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
+width: 255.64px;
+height: 204.38px;
+left: calc(50% - 255.64px/2 + 176.76px);
+top: 82.04px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 54.2894px;
+line-height: 75%;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
     z-index:3;
   }
   .btn{
     position: absolute;
-  width: 298px;
-  height: 54px;
-  left: calc(50% - 298px/2);
-  top: 207px;
-  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-  border-radius: 25px;
+width: 298px;
+height: 54px;
+left: calc(50% - 298px/2 - 151px);
+top: 279px;
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
   }
   .sel2{
     position: absolute;
-  height: 427px;
-  left: 30px;
-  right: 30px;
-  top: 684px;
+    width: 640px;
+    top: 373px;
+    left: 0px;
   }
   .bamboo{
-  position: absolute;
-  width: 455px;
-  height: 408px;
-  left: 0px;
-  top: 9px;
-  backdrop-filter: blur(2px);
+display: none;
+  }
+  .txt{
+    position: absolute;
+    height: 116px;
+  margin-left:0px;
+  margin-top: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333B41;
   }
   .txt1{
-    position: absolute;
-    left:516px;
+position: absolute;
+width: 495px;
+height: 367px;
+left:20px;
+}
+.txt2{
+  position: absolute;
+  width:454px;
+height: 42px;
+margin-left: 0px;
+margin-top: 196px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color: #333B41;
+}
+.txt21{
+  position: absolute;
+height: 63px;
+width: 297px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color: #333B41;
+}
+.txt3{
+  position: absolute;
+  margin-left: 4px;
+  margin-top: 218px;
+}
+.txt4{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -495px;
+}
+.txt41{
+  position: absolute;
+height: 110px;
+left: 0px;
+right: 0px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #333B41;
+}
+.flower{ display: block;
+  position: absolute;
+  width: 130px;
+  height: 476px;
+  left: 510px;
+  top: 368px;
+}
+.selection3card{
+  position: absolute;
+  width: 640px;
+  top: 880px;
+}
+.foto_card_gorillas{
+  display: none;
+}
+.foto_card_pinguins{
+  display: none;
+}
+.foto_card{
+  width: 285px;
+  height: 332px;
+}
+.card{
+ width: 283px;
+ height: 285px;
+}
+.meat {
+  position: absolute;
+  width: 37px;
+  height: 29px;
+  margin-left: 240px;
+  margin-top:0px;
+}
+.banana{
+  position: absolute;
+  margin-left: 250px;
+  margin-top:0px;
+  width: 26px;
+  height: 29px;
+}
+.text12{
+position: absolute;
+width: 210px;
+margin-left: -10px;
+margin-top: -10px;
+}
+.text21{
+  position: absolute;
+  width: 210px;
+  margin-left: -10px;
+  margin-top: -10px;
   }
-  .txt4{
-    position: absolute;
-    left:516px;
-  }
+.scroll_animals {
+  position: absolute;
+width: 640px;
+height: 756px;
+left: 0px;
+top: 0px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 30px;
+grid-row-gap: 90px;
+}
+.elps1{
+  display: block;
+  position: absolute;
+  margin: 1em auto;
+  background:#F9804B;
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  left: 243px;
+  top: 1210px;
+  border:0px;
+}
+.elps2{
+  display: block;
+  position: absolute;
+  margin: 1em auto;
+  background:#F9804B;
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  left: 370px;
+  top: 1210px;
+  border:0px;
+}
+.btn2 {
+ position: absolute;
+ left: 181px;
+ top: 1696px;
+ }
+ .strel{
+  position: absolute;
+  left: 465px;
+  top: 1720px;
+  width: 175px;
+height: 131px;
+ }
+ .palm{
+  position: absolute;
+  top: 1649px;
+ }
+ .sel1{
+  position: absolute;
+  height: 781px;
+  width: 640px;
+  top:1850px;
+ }
+ .bg{
+  position: absolute;
+  left:0px;
+  top:20px;
+  width: 640px;
+  height: 741px;
+ }
+ .pick{
+  position: absolute;
+  margin-left: 118px;
+  margin-top:10px;
+ }
+ .animal{
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 20px;
+  max-width: 600px;
+ }
+ .cov{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 152px;
+  max-width: 600px;
+ }
+ .sup{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 204px;
+  max-width: 600px;
+ }
+ .how{
+position: absolute;
+margin-left: 216px;
+margin-top: 276px;
+ }
+ .vect{
+  display: none;
+ }
+ .vect2{
+  display: none;
+ }
+ .widj1{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 343px;
+ }
+ .widj2{
+  position: absolute;
+  margin-left: 230px;
+  margin-top: 343px;
+ }
+ .widj3{
+  position: absolute;
+  margin-left: 440px;
+  margin-top: 343px;
+ }
+ .btn3{
+  position: absolute;
+  margin-left: 171px;
+  margin-top: 627px;
+ }
+ .sel3{
+  display: none;
+ }
+ .list{
+display: none;
+ }
+ .footer{
+  position: absolute;
+  width: 640px;
+  height: 282px;
+  top: 2628px;
+  left:0px;
+ }
+ .logo{
+  position:absolute;
+  margin-top: 13px;
+  margin-left:21px;
+ }
+ .logoimg{
+  width:82px;
+  height: 52px;
+ }
+ .butn5{
+  position: absolute;
+  margin-left:20px;
+  margin-top: 97px;
+  width: 298px;
+  height: 54px;
+ }
+ .sub{
+  display: none;
+ }
+ .form{
+  display: none;
+ }
+ .soc-list{
+  position: absolute;
+  margin-top: -244px;
+  margin-left: 600px;
+ }
+ .footer_list{
+  position: absolute;
+  margin-left: 67px;
+  margin-top: -130px;
+
+
+ }
+ .footer_item:first-child{
+  position: absolute;
+  margin-left: -35px;
+  margin-top: 370px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+ }
  }
